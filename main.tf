@@ -1,5 +1,5 @@
 resource "aws_launch_template" "launch_template" {
-  name = "launch_template"
+  name = "EC2_Template"
   image_id = "ami-08e4e35cccc6189f4"
   instance_type = "t2.micro"
 }
